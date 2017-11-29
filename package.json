@@ -4,15 +4,25 @@
   "description": "",
   "main": "src/application.js",
   "scripts": {
-    "start": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "nodetest"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "json"
+  ],
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
     "jquery": "^3.2.1",
     "mongodb": "^2.2.33",
     "webpack": "^3.8.1"
+  },
+  "engines": {
+    "node" : "0.12.x"
   },
   "devDependencies": {
     "webpack": "^3.8.1"
